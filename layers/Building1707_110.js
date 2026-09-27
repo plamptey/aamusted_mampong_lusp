@@ -1,0 +1,1 @@
+var json_Building1707_110 = {"type":"FeatureCollection","name":"Building1707_110","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[]}
