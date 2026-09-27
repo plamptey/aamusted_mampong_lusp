@@ -1,1 +1,0 @@
-var json_Entrance_123 = {"type":"FeatureCollection","name":"Entrance_123","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"101","Facility":"Entrance"},"geometry":{"type":"Point","coordinates":[-1.400224502317947,7.073876075175734]}}]}
