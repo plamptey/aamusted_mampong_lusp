@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/photon-geocoder-autocomplete.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/photon-geocoder-autocomplete.min.js"></script>
+        <script src="resources/olms.js"></script>
+        <script src="layers/SecurityPost_1.js"></script><script src="layers/USTEDClinic_2.js"></script><script src="layers/AAMUSTEDMsch_3.js"></script><script src="layers/PowerHouse_4.js"></script><script src="layers/UEWCoorp_5.js"></script><script src="layers/CooperativeAvenue_6.js"></script><script src="layers/PrincipalsAvenue_7.js"></script><script src="layers/USTEDMAvenue_8.js"></script><script src="layers/Campus_boundary_9.js"></script><script src="layers/GovernmentSchool_10.js"></script><script src="layers/StoreRoom_11.js"></script><script src="layers/AnimalFarm_12.js"></script><script src="layers/CropFarm_13.js"></script><script src="layers/VolleyBallPitch_14.js"></script><script src="layers/BasketballPitch_15.js"></script><script src="layers/Mosque_16.js"></script><script src="layers/Canteen_17.js"></script><script src="layers/Chapel_18.js"></script><script src="layers/USTEDMPark_19.js"></script><script src="layers/USTEDMCongregationGrounds_20.js"></script><script src="layers/NewOfficeBlock_21.js"></script><script src="layers/KICCOffice_22.js"></script><script src="layers/AuditBlock_23.js"></script><script src="layers/StaffCommonRoom_24.js"></script><script src="layers/FacultyofEducation_25.js"></script><script src="layers/FacultyofEnvHealthEd_26.js"></script><script src="layers/AdministrationBlock_27.js"></script><script src="layers/LibraryComplexLBFFRRSF_28.js"></script><script src="layers/NewLectureTheatreNLT_29.js"></script><script src="layers/NewScienceBlock_30.js"></script><script src="layers/ICTBlock_31.js"></script><script src="layers/LectureTheatreLT123_32.js"></script><script src="layers/NewLectureBlock_33.js"></script><script src="layers/ChapelExtension_34.js"></script><script src="layers/OldLab_35.js"></script><script src="layers/OldLibrary_36.js"></script><script src="layers/LTUnderConstruction_37.js"></script><script src="layers/SlaughterHouseSLT_38.js"></script><script src="layers/ReadingRoom_39.js"></script><script src="layers/SportsComplex_40.js"></script><script src="layers/Bungalow1_41.js"></script><script src="layers/Bungalow2_42.js"></script><script src="layers/Bungalow3_43.js"></script><script src="layers/Bungalow4_44.js"></script><script src="layers/Bungalow4Garage_45.js"></script><script src="layers/Bungalow5_46.js"></script><script src="layers/Bungalow6_47.js"></script><script src="layers/Bungalow7_48.js"></script><script src="layers/Bungalow8_49.js"></script><script src="layers/Bungalow9_50.js"></script><script src="layers/Bungalow10_51.js"></script><script src="layers/Bungalow11_52.js"></script><script src="layers/Bungalow12_53.js"></script><script src="layers/Bungalow13_54.js"></script><script src="layers/Bungalow14_55.js"></script><script src="layers/Bungalow15_56.js"></script><script src="layers/Bungalow16_57.js"></script><script src="layers/Bungalow17_58.js"></script><script src="layers/Bungalow18_59.js"></script><script src="layers/Bungalow19_60.js"></script><script src="layers/Bungalow20_61.js"></script><script src="layers/Bungalow21_62.js"></script><script src="layers/Bungalow22_63.js"></script><script src="layers/Bungalow23_64.js"></script><script src="layers/Bungalow24_65.js"></script><script src="layers/MainBungalow_66.js"></script><script src="layers/NewHostel_67.js"></script><script src="layers/AmaniampongB2_68.js"></script><script src="layers/AmaniampongB1_69.js"></script><script src="layers/AmaniampongB3_70.js"></script><script src="layers/Entrance_71.js"></script>
+        <script src="styles/SecurityPost_1_style.js"></script><script src="styles/USTEDClinic_2_style.js"></script><script src="styles/AAMUSTEDMsch_3_style.js"></script><script src="styles/PowerHouse_4_style.js"></script><script src="styles/UEWCoorp_5_style.js"></script><script src="styles/CooperativeAvenue_6_style.js"></script><script src="styles/PrincipalsAvenue_7_style.js"></script><script src="styles/USTEDMAvenue_8_style.js"></script><script src="styles/Campus_boundary_9_style.js"></script><script src="styles/GovernmentSchool_10_style.js"></script><script src="styles/StoreRoom_11_style.js"></script><script src="styles/AnimalFarm_12_style.js"></script><script src="styles/CropFarm_13_style.js"></script><script src="styles/VolleyBallPitch_14_style.js"></script><script src="styles/BasketballPitch_15_style.js"></script><script src="styles/Mosque_16_style.js"></script><script src="styles/Canteen_17_style.js"></script><script src="styles/Chapel_18_style.js"></script><script src="styles/USTEDMPark_19_style.js"></script><script src="styles/USTEDMCongregationGrounds_20_style.js"></script><script src="styles/NewOfficeBlock_21_style.js"></script><script src="styles/KICCOffice_22_style.js"></script><script src="styles/AuditBlock_23_style.js"></script><script src="styles/StaffCommonRoom_24_style.js"></script><script src="styles/FacultyofEducation_25_style.js"></script><script src="styles/FacultyofEnvHealthEd_26_style.js"></script><script src="styles/AdministrationBlock_27_style.js"></script><script src="styles/LibraryComplexLBFFRRSF_28_style.js"></script><script src="styles/NewLectureTheatreNLT_29_style.js"></script><script src="styles/NewScienceBlock_30_style.js"></script><script src="styles/ICTBlock_31_style.js"></script><script src="styles/LectureTheatreLT123_32_style.js"></script><script src="styles/NewLectureBlock_33_style.js"></script><script src="styles/ChapelExtension_34_style.js"></script><script src="styles/OldLab_35_style.js"></script><script src="styles/OldLibrary_36_style.js"></script><script src="styles/LTUnderConstruction_37_style.js"></script><script src="styles/SlaughterHouseSLT_38_style.js"></script><script src="styles/ReadingRoom_39_style.js"></script><script src="styles/SportsComplex_40_style.js"></script><script src="styles/Bungalow1_41_style.js"></script><script src="styles/Bungalow2_42_style.js"></script><script src="styles/Bungalow3_43_style.js"></script><script src="styles/Bungalow4_44_style.js"></script><script src="styles/Bungalow4Garage_45_style.js"></script><script src="styles/Bungalow5_46_style.js"></script><script src="styles/Bungalow6_47_style.js"></script><script src="styles/Bungalow7_48_style.js"></script><script src="styles/Bungalow8_49_style.js"></script><script src="styles/Bungalow9_50_style.js"></script><script src="styles/Bungalow10_51_style.js"></script><script src="styles/Bungalow11_52_style.js"></script><script src="styles/Bungalow12_53_style.js"></script><script src="styles/Bungalow13_54_style.js"></script><script src="styles/Bungalow14_55_style.js"></script><script src="styles/Bungalow15_56_style.js"></script><script src="styles/Bungalow16_57_style.js"></script><script src="styles/Bungalow17_58_style.js"></script><script src="styles/Bungalow18_59_style.js"></script><script src="styles/Bungalow19_60_style.js"></script><script src="styles/Bungalow20_61_style.js"></script><script src="styles/Bungalow21_62_style.js"></script><script src="styles/Bungalow22_63_style.js"></script><script src="styles/Bungalow23_64_style.js"></script><script src="styles/Bungalow24_65_style.js"></script><script src="styles/MainBungalow_66_style.js"></script><script src="styles/NewHostel_67_style.js"></script><script src="styles/AmaniampongB2_68_style.js"></script><script src="styles/AmaniampongB1_69_style.js"></script><script src="styles/AmaniampongB3_70_style.js"></script><script src="styles/Entrance_71_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>        
+    </body>
+</html>
